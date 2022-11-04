@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Count no. of vowels</title>
+        <script type="text/javascript">
+           var n,i,ch,count=0
+           n=prompt("Enter a string")
+           for(i=0;i<n.length;i++)
+           {
+            ch=n.charAt(i);
+            if(ch=="a"||ch=="A"||ch=="e"||ch=="E"||ch=="i"||ch=="I"||ch=="o"||ch=="O"||ch=="u"||ch=="U")count=count+1
+        }
+        document.write("No.of vowels is=" +count)
+        </script>
+    </head>
+</html>
