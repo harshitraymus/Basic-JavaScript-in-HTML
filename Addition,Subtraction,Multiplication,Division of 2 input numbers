@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html>
+    <title>Algebraic Operations on 2 input numbers</title>
+    <script type="text/javascript">
+        var a,b,result;
+        a=parseInt(prompt("Enter first no."))
+        b=parseInt(prompt("Enter second no."))
+        result=+(a+b);
+        document.write("Addition is="+result + "<br>");
+        result=+(a-b);
+        document.write("Subtraction is="+result + "<br>");
+        result=+(a*b);
+        document.write("Multiplication is="+result + "<br>");
+        result=+(a/b);
+        document.write("Division is="+result + "<br>");
+    </script>
+</html>
