@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Set new BG in new window</title>
+        <script type="text/javascript">  //Write JavaScript program to set 2 different background color to webpage on onClick, onMousemove events.
+            function sampleFunction1(){
+                var newwin=window.open();
+newwin.document.body.style="background-color:green"
+
+            }
+            function SampleFunction2(){
+                var newwin=window.open();
+newwin.document.body.style="background-color:blue"
+            }
+        </script>
+    </head>
+
+    <body>
+            <h1>Set new BG in new window </h1>
+            <input type="button" value="new BG when clicked" 
+            onClick="sampleFunction1()";>    
+            <input type="button" value="new BG when mouse brought here"
+            onmousemove="SampleFunction2()"; >
+    </body>
+</html>
